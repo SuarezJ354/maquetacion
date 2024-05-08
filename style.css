@@ -7,7 +7,7 @@
 
 html{
     margin: 0;
-    background-color: #140928;
+    background-color: #13072E;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: beige;
     font-size: 12px;
@@ -56,7 +56,7 @@ main p{
     
 }
 
-button{
+button,  .btn-enviar{
     text-align: center;
     position: relative;
     top: 35px;
@@ -69,7 +69,7 @@ button{
     
 }
 
-button a{
+button a, .btn-enviar{
     text-decoration: none;
     color: white;
     font-family: "Montserrat", sans-serif; 
@@ -149,4 +149,87 @@ footer{
     justify-content: center;
     align-items: center;
   }
+
+
+  i {
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 22px;
+    border-radius: 100%;
+    
+  }
+  .fa fa-whatsapp, .fa fa-envelope{
+    background-color: #2B2C5F;
+    border-radius: 1px solid black;
+  }
+
+  form{
+    margin: 0 40px;
+  }
+  form h3{
+    display: flex;
+    margin: 13px;
+  }
+
+  .tele{
+    position: relative;
+    bottom: 92px;
+    margin-left: 222px;
+    margin-bottom: -92px;
+  }
+  .nombre{
+    position: relative;
+    top: 0px;
+    right: 2px;
+    padding: 10px;
+    border-radius: 9px;
+    width: 440px;
+    height: 50px;
+
+  }
+  .email, .telefono{
+    position: relative;
+    top: 0px;
+    right: 2px;
+    padding: 10px;
+    border-radius: 9px;
+    width: 218px;
+    height: 50px;
+
+  }
+  .coment{
+    max-width: 100%;
+    width: 440px;
+    height: 140px;
+    border-radius: 9px;
+
+  }
   
+  .container-form{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .info-form{
+    margin: 20px;
+    justify-content: end;
+    font-size: 20px;
+
+  }
+  .info-form h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .info-form img{
+    position: relative;
+    bottom: 100px;
+    left: 254px;
+    border-radius: 200px;
+    width: 40px;
+    
+  }
+  .btn-enviar{
+    background-color: #2B2C5F;
+
+  }
