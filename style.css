@@ -69,7 +69,7 @@ button,  .btn-enviar{
     
 }
 
-button a, .btn-enviar{
+#temas a button, .btn-enviar{
     text-decoration: none;
     color: white;
     font-family: "Montserrat", sans-serif; 
@@ -290,12 +290,12 @@ footer{
     margin: 10px;
     margin-bottom: 19px;
   }
-  .main img, .clasificacion, .parte2{
+  .planetasp, .main img, .clasificacion, .parte2{
     display: flex;
     
   }
 
-  .principal img{
+  .planetasp img{
     height: 360px;
     position: relative;
     bottom: 56px;
