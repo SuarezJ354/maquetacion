@@ -16,11 +16,11 @@ html{
 header{
     background-color: #2B2C5F;
     display: flex;
-    margin: 10px 40px;
+    margin: 20px 80px;
     justify-content: space-between;
     align-items: center;
     padding: 1px;
-    border-radius: 20px;
+    border-radius: 30px;
     font-family: url("Letras/TT\ Interphases\ Pro\ Trial\ Black.ttf");
 }
 
@@ -47,7 +47,7 @@ main{
     margin: 0 40px;
 }
 
-main p{
+main p, ul{
     justify-content: center;
     align-items: center;
     /* display: flex; */
@@ -275,4 +275,52 @@ footer{
     position: absolute;
     top: 6px;
     right: 4px;
+  }
+
+  /*css de planetas*/
+
+  .main{
+    background-color: #2B2C5F;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .main h2{
+    font-size: 26px;
+    margin: 10px;
+    margin-bottom: 19px;
+  }
+  .main img, .clasificacion, .parte2{
+    display: flex;
+    
+  }
+
+  .principal img{
+    height: 360px;
+    position: relative;
+    bottom: 56px;
+  }
+
+  .main ul{
+    margin-left: 25px;
+  }
+  .main h3{
+    font-size: 18px;
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .plane{
+    width: 166px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 25px;
+    right: 0px;
+  }
+  .textplane, .gaseoso{
+    margin:0px 0px 0px 20px;
+  }
+
+  .parte2  hr{
+    margin: 15px;
   }
