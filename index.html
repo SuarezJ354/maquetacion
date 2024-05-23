@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UniversoUnico</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="Imagenes/Inicio/Icono.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
@@ -16,6 +18,10 @@
         </div>
         
         <nav class="nav">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
             <a href="index.html">Inicio</a>
             <a href="index.html#temas">Temas</a>
             <a href="compra.html">Telescopio</a>
@@ -23,13 +29,18 @@
         </nav>
     </header>
     <main>
+        <div class="search-bar">
+            <input type="text" class="search-input" placeholder="Buscar...">
+            <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
         <div class="eslogan">
             <h2>Todo lo relacionado al universo lo encuentras aqui</h2>
+        
         </div>
-        <p>El Universo es el espacio y el tiempo que abarca todo aquello que existe. Esto incluye todos los tipos de materias, los planetas, la energía, la luz, las estrellas, los satélites, las galaxias y otros objetos celestes. También engloba las leyes y las constantes físicas que gobiernan estos fenómenos.
+        <p id="eslogan">El Universo es el espacio y el tiempo que abarca todo aquello que existe. Esto incluye todos los tipos de materias, los planetas, la energía, la luz, las estrellas, los satélites, las galaxias y otros objetos celestes. También engloba las leyes y las constantes físicas que gobiernan estos fenómenos.
 
         </p>
-
+        <h2 id="Temas">Temas</h2>
         <div class="tarjetas" id="temas">
             <div class="card" class="vertical-line">
                 <div class="contenido">
